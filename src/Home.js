@@ -36,7 +36,7 @@ class Home extends Component {
         {
           id:0,
           title: "Day Light in Helsinki",
-          subtitle: "Data Vizulization ",
+          subtitle: "Data Visualization ",
           url: "yyy.com",
           image: Daylight1,
           posXDesktop: "15%",
