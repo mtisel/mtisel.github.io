@@ -32,7 +32,7 @@ class App extends Component {
           />
           <meta property="og:image" content="Maja Tisel Web Showcase" />
           <meta property="og:url" content="majatisel.com" />
-          <link rel="image_src" href="src/images/Favicon.png" />
+          <link rel="image_src" href="./Mag1.jpg" />
         </Helmet>
         <Router>
           <div>
