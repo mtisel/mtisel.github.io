@@ -229,16 +229,26 @@ class Home extends Component {
       return null;
     }
 
-    function Unslash() {
+    function DynamicSlashing(props) {
+      const isMobile = window.innerWidth < 768;
+      if (isMobile) {
+        return null;
+      }
+      return <Slash projectId={props.projectId}> </Slash>;
+    }
+
+    function DynamicBreaking(props) {
+      if (props.projectId % 2 == 1) {
+        return <br />;
+      }
       return null;
     }
 
-    function Slashing(props) {
-      const isMobile = window.innerWidth < 768;
+    function BreakingProjectTile(props) {
       if (isMobile) {
-        return <Unslash />;
+        return null;
       }
-      return <Slash projectId={props.projectId}> </Slash>;
+      return <DynamicBreaking projectId={props.projectId}></DynamicBreaking>;
     }
 
     const ProjectTile = styled.div`
@@ -279,7 +289,8 @@ class Home extends Component {
               <a className="projectSubtitle" href={""}>
                 {project.subtitle}
               </a>
-              <Slashing projectId={project.id}></Slashing>
+              <DynamicSlashing projectId={project.id}></DynamicSlashing>
+              <BreakingProjectTile projectId={project.id}></BreakingProjectTile>
 
               <ProjectImage>
                 <img
