@@ -230,25 +230,27 @@ class Home extends Component {
     }
 
     function DynamicSlashing(props) {
-      const isMobile = window.innerWidth < 768;
+      const isMobile = window.innerWidth <= 768;
       if (isMobile) {
         return null;
       }
       return <Slash projectId={props.projectId}> </Slash>;
     }
 
-    function DynamicBreaking(props) {
+    function BreakingProjectTile(props) {
       if (props.projectId % 2 == 1) {
         return <br />;
       }
       return null;
     }
 
-    function BreakingProjectTile(props) {
+    function DynamicBreaking(props) {
       if (isMobile) {
         return null;
       }
-      return <DynamicBreaking projectId={props.projectId}></DynamicBreaking>;
+      return (
+        <BreakingProjectTile projectId={props.projectId}></BreakingProjectTile>
+      );
     }
 
     const ProjectTile = styled.div`
