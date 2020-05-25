@@ -237,6 +237,9 @@ class Home extends Component {
       return <Slash projectId={props.projectId}> </Slash>;
     }
 
+    // frst xheck ismobile? => breK EVERYWHE
+    // IF DESKTOP => EVERY 2ND
+
     function BreakingProjectTile(props) {
       if (props.projectId % 2 == 1) {
         return <br />;
@@ -245,8 +248,9 @@ class Home extends Component {
     }
 
     function DynamicBreaking(props) {
+      const isMobile = window.innerWidth <= 768;
       if (isMobile) {
-        return null;
+        return <BreakingProjectTile projectId={1}></BreakingProjectTile>;
       }
       return (
         <BreakingProjectTile projectId={props.projectId}></BreakingProjectTile>
@@ -292,7 +296,7 @@ class Home extends Component {
                 {project.subtitle}
               </a>
               <DynamicSlashing projectId={project.id}></DynamicSlashing>
-              <BreakingProjectTile projectId={project.id}></BreakingProjectTile>
+              <DynamicBreaking projectId={project.id}></DynamicBreaking>
 
               <ProjectImage>
                 <img

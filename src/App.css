@@ -1,3 +1,9 @@
+/* THIS IS FOR MACBOOK */
+
+#root {
+  font-size: 20px;
+}
+
 body {
   cursor: url("./images/Cursor.png"), auto;
 }
@@ -20,7 +26,7 @@ head {
   background-color: #a79285;
   margin-top: 5%;
   font-family: "Noto Sans", sans-serif;
-  font-size: 1.4em;
+  font-size: 100%;
   list-style-type: none;
   display: block;
   overflow: hidden;
@@ -51,7 +57,7 @@ head {
   margin-top: 10%;
   margin-right: 10%;
   text-align: center;
-  font-size: 240%;
+  font-size: 200%;
   cursor: url("./images/Cursor.png"), auto;
 }
 .projectTitle {
@@ -85,7 +91,7 @@ head {
   font-family: "Canela-Regular";
   text-decoration: none;
   color: inherit;
-  font-size: 260%;
+  font-size: 200%;
   line-height: 110%;
 }
 
@@ -96,14 +102,14 @@ head {
   font-family: "Noto Sans", sans-serif;
   text-decoration: none;
   color: inherit;
-  font-size: 260%;
+  font-size: 220%;
   display: flex;
   flex-wrap: wrap;
 }
 
 .subInfo > div {
   margin-right: 10%;
-  margin-bottom: 20%;
+  margin-bottom: 0%;
   font-size: 40%;
   text-decoration: none;
   color: black;
@@ -127,16 +133,20 @@ head {
   color: black;
   /* font-family: "Canela-Regular"; */
 }
+/* THIS IS FOR IPAD and IPHONE */
 
 @media only screen and (max-width: 768px) {
+  #root {
+    font-size: 20px;
+  }
   .introText {
-    font-size: 140%;
+    font-size: 120%;
     margin-right: 5%;
     line-height: 125%;
   }
   .subInfo > div {
     margin-right: 20%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     font-size: 35%;
   }
   .subInfo > div > p {
@@ -147,7 +157,7 @@ head {
     text-decoration: none;
     color: black;
   }
-  subInfo > div > a {
+  .subInfo > div > a {
     font-size: 100%;
     line-height: 100%;
     text-align: left;
@@ -155,5 +165,13 @@ head {
     text-decoration: none;
     color: black;
     /* font-family: "Canela-Regular"; */
+  }
+}
+
+/* THIS IS FOR IMAC */
+
+@media (min-width: 1800px) {
+  #root {
+    font-size: 70px;
   }
 }
