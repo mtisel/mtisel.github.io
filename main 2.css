@@ -1,0 +1,1047 @@
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:100,200,400,700);
+
+/* 27 inch iMac ----------- */
+@media only screen and (min-width : 2400px) {
+
+    canvas[resize] {
+position: fixed;
+top:0;
+left:0;
+width: 100%;
+        }
+
+.gif {
+    margin: auto;
+    display: block;
+}
+
+.gif2 {
+    display: block;
+    position:absolute;
+    top: 70px;
+    left: 20px;
+}
+
+
+
+.projectname {
+    font-size: 2.2em;
+    max-width: 35%;
+    min-width: 25%;
+    margin-top: 2%; 
+    margin-left: 10%;  
+    color: black;
+    position: relative;
+    font-family: 'Passion One';
+    letter-spacing:;
+    text-decoration:;
+
+}
+
+ .projectdescription {
+    font-size: 1.5em;
+    max-width: 35%;
+    min-width: 25%;
+    margin-top: 1%; 
+    margin-left: 10%;
+    line-height: 150%; 
+    letter-spacing: 0px;
+    text-align: block;
+    color: black;
+    font-family: 'Rubik';
+
+}
+
+.info {
+    font-size: 1.2em;
+    max-width: 55%;
+    min-width: 25%;
+    margin-top: 0.8%; 
+    margin-left: 10%;  
+    text-align: block;
+    color: gray;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    letter-spacing: 0px;
+
+}
+
+.button {
+
+    font-size: 1em;
+    margin: auto; 
+    margin-top: 2%; 
+    margin-bottom: 1%; 
+    width: 30%;
+    color: gray;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.button:hover{
+    color: pink;
+}
+
+#glava {
+    position: absolute;
+    top: 00px;
+    left: 00px;
+}
+
+.links {
+    font-family: "Courier New";
+    max-width: 10%;
+    display: block;
+    position:absolute;
+    top: 250px;
+    left: 70px;
+    display: block;
+}
+
+  
+
+.links3 {
+    font-family: "Passion One";
+    max-width: 20%;
+    position:absolute;
+    display: block;
+    color: green;
+    font-size: 4em;
+    margin-top: 5%; 
+    margin-left: 80%;  
+    letter-spacing: 1px;
+
+    
+}
+
+.linksleft {
+    font-family: "Passion One";
+    max-width: 15%;
+    position:absolute;
+    display: block;
+    color: green;
+    font-size: 2.8em;
+    margin-top: 10%; 
+    margin-left: 8%;  
+    letter-spacing: 1px;
+
+    
+}
+.linksright {
+    font-family: "Passion One";
+    max-width: 15%;
+    position:absolute;
+    display: block;
+    color: green;
+    font-size: 2.8em;
+    margin-top: 10%; 
+    margin-left: 81%;  
+    letter-spacing: 1px;
+
+    
+}
+
+.aboutme{
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    margin-left: 43%;
+    margin-top: 3%;
+    letter-spacing: 2px;  
+    position: absolute;
+
+    }
+.aboutme:hover{
+    color: green;
+}
+#home{
+
+    color: white;
+    text-decoration: none;
+    padding-right: 55px;
+ }
+#home:hover{
+color: green;
+text-decoration: none;
+   
+ }
+
+#firstLink{
+    color:green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block;
+
+}
+
+#secondLink{
+    color: green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block; 
+
+
+}
+#thirdLink{
+    color: green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block;
+
+}
+#fourthLink{
+    color: green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block;
+
+}
+#fifthLink{
+    color:green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block;
+
+}
+
+
+.work {   
+    max-width: 35%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3%; 
+    display: block;
+}
+
+.work2 {   
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3%; 
+    display: block;
+}
+.work3 {   
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3%; 
+    display: block;
+}
+
+ .back{
+    font-family: "Montserrat";
+    font-size: 1em;
+    color: #fa96b4;
+    text-decoration: underline;
+    display: block; 
+    margin-top: 2%; 
+    margin-left: 2%;      
+          }
+.majatisel{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.4em;
+    color: white;
+    text-decoration: none;
+    margin-top: %; 
+    margin-left: 8%; 
+    letter-spacing: 2px;     
+          }
+
+
+
+
+    .backme{
+ 
+   font-size: 2em;
+     margin-top: 2%; 
+    margin-left: 8%;  
+    text-decoration: none;
+    display: block;
+    font-family: "Rubik";
+    color: white;      
+          }
+
+.contact {
+    font-style: italic; 
+
+}
+
+   .linkwebpage {
+    font-size: 0.8em;
+    max-width: 55%;
+    min-width: 25%;
+    margin-top: 0.8%; 
+    margin-left: 20%;  
+    text-align: block;
+    color: gray;
+    font-family: 'Montserrat';
+
+}
+.article {
+    font-size: 4em;
+    max-width: 70%;
+    min-width: 25%;
+    float: left;
+    margin-top: 0%; 
+    margin-left: 8%;  
+    text-align: block;
+    color: white;
+    font-family: "Rubik";
+        line-height: %; 
+
+}
+.contact {
+            font-style: italic; 
+
+           }
+
+.note {
+    font-size: 1em;
+    max-width: 50%;
+    min-width: 25%;
+    margin-top: 24%; 
+    margin-left: 8%;  
+    text-align: block;
+    color: green;
+    font-family: "Courier New";
+
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color:;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 200;
+  color: green;
+  font-size: 0.7em;
+}
+
+.important{  
+    text-decoration: none;
+    text-decoration-style:dashed;
+    text-decoration: none;
+    border-bottom: 2px dashed pink;
+    color:black;
+    font-family: 'Rubik';
+    font-weight: 300;
+}
+
+    
+}
+
+/* 13 inch displays ----------- */
+@media only screen and (min-width : 1224px) and (max-width: 2399px) {
+
+canvas[resize] {
+position: fixed;
+top:0;
+left:0;
+width: 100%;
+        }
+
+.gif {
+    margin: auto;
+    display: block;
+}
+
+.gif2 {
+    display: block;
+    position:absolute;
+    top: 70px;
+    left: 20px;
+}
+
+
+.introduction {
+    font-family: "Courier New";
+    margin-left: 390px;
+    max-width: 45%;
+    text-align: ;
+    display: block;
+    font-size: 16px;
+
+}
+
+.introduction2 {
+     font-family: "Courier New";
+
+/*    font-family: 'Prociono', serif;
+*/    margin-left: 50px;
+    margin-top: 250px;
+    max-width: 55%;
+    text-align:  ;
+    display: block;
+    font-size: 20px;
+    color: green;
+
+}
+
+.projectname {
+    font-size: 1.4em;
+    max-width: 35%;
+    min-width: 25%;
+    margin-top: 2%; 
+    margin-left: 10%;  
+    color: black;
+    position: relative;
+    font-family: 'Passion One';
+    letter-spacing:;
+    text-decoration:;
+
+}
+
+.projectdescription {
+    font-size: 1em;
+    max-width: 45%;
+    min-width: 25%;
+    margin-top: 1%; 
+    margin-left: 10%;
+    line-height: 150%; 
+    letter-spacing: 0px;
+    text-align: block;
+    color: black;
+    font-family: 'Rubik';
+
+}
+
+.info {
+    font-size: 0.8em;
+    max-width: 55%;
+    min-width: 25%;
+    margin-top: 0.8%; 
+    margin-left: 10%;  
+    text-align: block;
+    color: gray;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    letter-spacing: 0px;
+
+}
+
+.button {
+
+    font-size: 0.7em;
+    margin: auto; 
+    margin-top: 2%; 
+    margin-bottom: 1%; 
+    width: 30%;
+    color: gray;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.button:hover{
+    color: pink;
+}
+
+#glava {
+    position: absolute;
+    top: 00px;
+    left: 00px;
+}
+
+.links {
+    font-family: "Courier New";
+    max-width: 10%;
+    display: block;
+    position:absolute;
+    top: 250px;
+    left: 70px;
+    display: block;
+}
+
+.links2 {
+    font-family: "Courier New";
+    max-width: 10%;
+    display: block;
+    position:absolute;
+    top: 250px;
+    left: 70px;
+    display: block;
+}
+
+.links3 {
+    font-family: "Passion One";
+    max-width: 10%;
+    position:absolute;
+    display: block;
+    color: green;
+    font-size: 1.25em;
+    margin-top: 5%; 
+    margin-left: 80%;  
+    letter-spacing: 1px;
+
+    
+}
+
+.linksleft {
+    font-family: "Passion One";
+    max-width: 10%;
+    position:absolute;
+    display: block;
+    color: green;
+    font-size: 1.25em;
+    margin-top: 10%; 
+    margin-left: 8%;  
+    letter-spacing: 1px;
+
+    
+}
+.linksright {
+    font-family: "Passion One";
+    max-width: 10%;
+    position:absolute;
+    display: block;
+    color: green;
+    font-size: 1.25em;
+    margin-top: 10%; 
+    margin-left: 81%;  
+    letter-spacing: 1px;
+
+    
+}
+
+#firstLink{
+    color:green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block;
+
+}
+
+#secondLink{
+    color: green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block; 
+
+
+}
+#thirdLink{
+    color: green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block;
+
+}
+#fourthLink{
+    color: green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block;
+
+}
+#fifthLink{
+    color:green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block;
+
+}
+
+
+.work {   
+    max-width: 35%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3%; 
+    display: block;
+}
+
+.work2 {   
+    max-width: 65%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3%; 
+    display: block;
+}
+.work3 {   
+    max-width: 65%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3%; 
+    display: block;
+}
+
+ .back{
+    font-family: "Montserrat";
+    font-size: 1em;
+    color: #fa96b4;
+    text-decoration: underline;
+    display: block; 
+    margin-top: 2%; 
+    margin-left: 2%;      
+          }
+.majatisel{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.4em;
+    color: white;
+    text-decoration: none;
+    margin-top: %; 
+    margin-left: 8%; 
+    letter-spacing: 2px;     
+          }
+.aboutme{
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    margin-left: 43%;
+    margin-top: 3%;
+    letter-spacing: 2px;  
+    position: absolute;
+
+   
+          }
+.aboutme:hover{
+    color: green;
+}
+
+#home{
+
+    color: white;
+    text-decoration: none;
+    padding-right: 55px;
+ 
+   
+          }
+
+
+#home:hover{
+
+    color: green;
+    text-decoration: none;
+}
+
+
+
+
+    .backme{
+ 
+   font-size: 2em;
+     margin-top: 2%; 
+    margin-left: 8%;  
+    text-decoration: none;
+    display: block;
+    font-family: "Rubik";
+    color: white;      
+          }
+
+.contact {
+    font-style: italic; 
+
+}
+
+   .linkwebpage {
+    font-size: 0.8em;
+    max-width: 55%;
+    min-width: 25%;
+    margin-top: 0.8%; 
+    margin-left: 18%;  
+    text-align: block;
+    color: gray;
+    font-family: 'Montserrat';
+
+}
+.article {
+    font-size: 1.9em;
+    max-width: 70%;
+    min-width: 25%;
+    float: left;
+    margin-top: 0%; 
+    margin-left: 8%;  
+    text-align: block;
+    color: white;
+    font-family: "Rubik";
+        line-height: %; 
+
+}
+.contact {
+            font-style: italic; 
+
+           }
+
+.note {
+    font-size: 1em;
+    max-width: 50%;
+    min-width: 25%;
+    margin-top: 24%; 
+    margin-left: 8%;  
+    text-align: block;
+    color: green;
+    font-family: "Courier New";
+
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color:;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 200;
+  color: green;
+  font-size: 0.7em;
+}
+.important{  
+    text-decoration: none;
+    text-decoration-style:dashed;
+    text-decoration: none;
+    border-bottom: 2px dashed pink;
+    color:black;
+    font-family: 'Rubik';
+    font-weight: 300;
+}
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+
+
+    
+   
+
+
+.majatisel{   
+    max-width: 15%;
+    margin-left: 3%;
+    margin-top: 3%; 
+    display: block;
+}
+
+.aboutimg{   
+    max-width: 5%;
+    margin-left: 80%;
+    margin-top: 5%; 
+    float: left;
+}
+.projectname {
+    font-size: 3em;
+    max-width: 60%;
+    min-width: 90%;
+    margin-top: 4%; 
+    margin-left: 4%;  
+    color: black;
+    position: relative;
+    font-family: 'Passion One';
+    letter-spacing: px;
+    text-decoration: ;
+
+}   
+
+.projectdescription {
+    font-size: 2.8em;
+    max-width: 90%;
+    min-width: 90%;
+    margin-top: 3%; 
+    margin-left: 4%;
+    line-height: 150%; 
+    letter-spacing: 0px;
+    text-align: block;
+    color: black;
+    font-family: 'Rubik';
+
+}
+
+.info {
+    font-size: 1.95em;
+    max-width: 90%;
+    min-width: 80%;
+    margin-top: 2%;
+    margin-bottom: 4%; 
+    margin-left: 4%;  
+    text-align: block;
+    color: gray;
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+
+}
+
+.article {
+    font-family: "Rubik";
+    font-size: 3em;
+    max-width: 90%;
+    min-width: 90%;
+    margin-left: 5%;  
+
+    float: left;
+/*    //margin: auto;  */
+    text-align: block;
+    color: white;
+          }
+
+
+   .contact {
+     font-style: italic;
+     margin-bottom: 5%; 
+           }
+
+.button {
+
+    font-size: 1.3em;
+    margin: auto; 
+    margin-top: 8%; 
+    margin-bottom: 8%; 
+    width: 40%;
+    color: gray;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.button:hover{
+    color: pink;
+
+}
+
+.work {   
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 3%; 
+    display: block;
+} 
+
+.work2 {   
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3%; 
+    display: block;
+
+}
+
+.work3 {   
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3%; 
+    display: block;
+
+}
+
+.back{
+    font-family: "Montserrat";
+    font-size: 1.2em;
+    color: #cc4166;
+    text-decoration: underline;
+    display: block; 
+    margin-top: 2%; 
+    margin-left: 2%;      
+
+}
+
+
+.linkwebpage {
+    font-size: 1.4em;
+    max-width: 55%;
+    min-width: 25%;
+    margin-top: 0.8%; 
+    margin-left: 4%;  
+    text-align: block;
+    color: green;
+    font-family: "Montserrat"; 
+}  
+
+
+.links3{ 
+    font-family: "Passion One";
+    max-width: 35%;
+    display: block;
+    position:absolute;
+    color: green;
+    font-size: 2.5em;
+    margin-top: 15%; 
+    margin-left: 5%; 
+    letter-spacing: 1px;
+
+  } 
+
+  #firstLink{
+    color:green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block;
+
+}
+
+#secondLink{
+    color: green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block; 
+
+
+}
+#thirdLink{
+    color: green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block;
+
+}
+#fourthLink{
+    color: green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block;
+
+}
+#fifthLink{
+    color:green;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    text-decoration: underline;
+    display: block;
+
+}
+
+  .linksleft {
+    font-family: "Passion One";
+    max-width: 19%;
+    position:absolute;
+    display: block;
+    color: green;
+    font-size: 1.8em;
+    margin-top: 15%; 
+    margin-left: 8%;  
+    letter-spacing: 1px;
+
+    
+}
+.linksright {
+    font-family: "Passion One";
+    max-width: 19%;
+    position:absolute;
+    display: block;
+    color: green;
+    font-size: 1.8em;
+    margin-top: 75%; 
+    margin-left: 8%;  
+    letter-spacing: 1px;
+
+    
+}
+.backme{
+ 
+   font-size: 2em;
+     margin-top: 2%; 
+    margin-left: 8%;  
+    text-decoration: none;
+    display: block;
+    font-family: "Rubik";
+    color: white;      
+          }
+
+  .footer {
+position: absolute;
+font-family: "Montserrat";
+font-weight: 200;
+color: green;
+font-size: 1em;
+margin-top: 90%; 
+margin-left: 18%;
+margin-bottom: ;
+
+}
+
+
+ .aboutme{
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 2.3em;
+    color: white;
+    text-decoration: none;
+    margin-left: 25%;
+    margin-top: 3%;
+    letter-spacing: 2px;  
+    position: absolute;
+}
+.aboutme:hover{
+    color: green;
+}
+
+#home{
+
+    color: white;
+    text-decoration: none;
+    padding-right: 55px;
+ }
+
+ .important{  
+    text-decoration: none;
+    text-decoration-style:dashed;
+    text-decoration: none;
+    border-bottom: 6px dashed pink;
+    color:black;
+    font-family: 'Rubik';
+    font-weight: 300;
+}
+
+
+}
